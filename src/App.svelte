@@ -1,3 +1,108 @@
+<script>
+  let developers = [
+    {
+      name: 'Genta putra harnaci',
+      status: 'Alumni 2021',
+    },
+    {
+      name: 'Desal Isra',
+      status: 'Alumni 2017',
+    },
+    {
+      name: 'M Miftahurrahman',
+      status: 'Active',
+    },
+    {
+      name: 'Romadoni Eko Putro',
+      status: 'Active',
+    },
+    {
+      name: 'Muhammad Riza Putra',
+      status: 'Active',
+    },
+    {
+      name: 'Stefanie',
+      status: 'Active',
+    },
+    {
+      name: 'Satrio Arum Wijaya K',
+      status: 'Active',
+    },
+    {
+      name: 'Aldi Sunantri',
+      status: 'Active',
+    },
+    {
+      name: 'Alfiyan Nugroho',
+      status: 'Active',
+    },
+    {
+      name: 'Siti Aulia Jasmine',
+      status: 'Active',
+    },
+    {
+      name: 'Dewi Susan Suriani',
+      status: 'Active',
+    },
+    {
+      name: 'Rizky Oktaviani',
+      status: 'Active',
+    },
+    {
+      name: 'Aida Ainun Najah',
+      status: 'Active',
+    },
+    {
+      name: 'Rizky Ananda',
+      status: 'Active',
+    },
+    {
+      name: 'Fadilah Permana',
+      status: 'Active',
+    },
+    {
+      name: 'M Aldi Pratama',
+      status: 'Active',
+    },
+    {
+      name: 'Muhammad Ariel',
+      status: 'Active',
+    },
+    {
+      name: 'M Anton Fahrdzzi',
+      status: 'Active',
+    },
+    {
+      name: 'Ardhi Anggoro',
+      status: 'Active',
+    },
+    {
+      name: 'Wahyu Setyo Budi Utomo',
+      status: 'Active',
+    },
+    {
+      name: 'M Farhan',
+      status: 'Active',
+    },
+    {
+      name: 'M Akbar Febriyan',
+      status: 'Active',
+    },
+    {
+      name: 'Azhar Rifal',
+      status: 'Active',
+    },
+    {
+      name: 'Gunawan',
+      status: 'Active',
+    },
+    {
+      name: 'Dadan Ramadhan',
+      status: 'Active',
+    },
+  ];
+</script>
+
 <nav
   class="fixed top-0 w-full h-11 flex justify-between items-center px-6 shadow-md text-sm bg-white"
   style="box-shadow: 0px 2px 2px rgb(0 0 0 / 5%);"
@@ -26,10 +131,10 @@
   class="flex justify-center items-center text-center mt-16 pt-16 "
 >
   <div class="text-center">
-    <h1 class="text-4xl font-bold mb-6">
+    <h1 class="text-4xl font-bold mb-4">
       SMK YMIK <span class="text-primary">DEVELOPERS</span>
     </h1>
-    <p class="text-sm max-w-sm leading-6 mb-6">
+    <p class="text-sm max-w-sm leading-6  p-6">
       Mari Bergabung untuk belajar bersama serta berikan kontribusi anda disini
     </p>
     <a
@@ -91,18 +196,18 @@
     Mari Berkenalan dengan para developer
   </h2>
   <div class="flex gap-6 flex-wrap justify-center items-center ">
-    {#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as { }}
+    {#each developers as { name, status }}
       <div
-        class="border max-w-xs py-4 px-6 rounded-md bg-white flex gap-3 hover:shadow-md transition-shadow cursor-pointer"
+        class="border w-80 py-4 px-6 rounded-md bg-white flex gap-3 hover:shadow-md transition-shadow cursor-pointer"
       >
         <div
           class="border w-10 h-10 rounded-full bg-primary flex justify-center items-center font-bold text-white"
         >
-          <span>G</span>
+          <span>{name.charAt(0)}</span>
         </div>
         <div>
-          <h3 class="font-semibold">Genta putra harnaci</h3>
-          <p class="text-xs">Alumni 2021</p>
+          <h3 class="font-semibold capitalize">{name}</h3>
+          <p class="text-xs capitalize">{status}</p>
         </div>
       </div>
     {/each}
