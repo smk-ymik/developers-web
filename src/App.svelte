@@ -19,7 +19,7 @@
 <img
   src="https://assets.smkymik.sch.id/images/undraw/developer_activity.svg"
   alt=""
-  class="absolute  w-72 -right-28 top-44 -z-50 "
+  class="absolute  w-72 -right-52 md:-right-28 top-44 -z-50 "
 />
 <main
   id="about"
@@ -84,7 +84,7 @@
 <img
   src="https://assets.smkymik.sch.id/images/undraw/rocket.svg"
   alt=""
-  class="absolute  w-72 -left-28 top-[30rem] -z-50 "
+  class="absolute  w-72  -left-32 sm:-left-28 top-[30rem] -z-50 "
 />
 <section id="team" class="mt-10 p-10">
   <h2 class="font-bold text-xl mb-10 text-center">
@@ -111,7 +111,7 @@
 <img
   src="https://assets.smkymik.sch.id/images/undraw/team.svg"
   alt=""
-  class="absolute  w-72 -right-32 top-[45rem] -z-50 "
+  class="absolute  w-72 -right-36 md:-right-32 top-[70rem]  md:top-[45rem] -z-50 "
 />
 <footer class="text-center mb-3 text-sm">
   <p>Hak Cipta 2022 Oleh Para Developer SMK YMIK</p>
