@@ -131,10 +131,10 @@
   class="flex justify-center items-center text-center mt-16 pt-16 "
 >
   <div class="text-center">
-    <h1 class="text-4xl font-bold mb-4">
+    <h1 class="text-4xl font-bold mb-4 px-4 sm:px-0">
       SMK YMIK <span class="text-primary">DEVELOPERS</span>
     </h1>
-    <p class="text-sm max-w-sm leading-6  p-6">
+    <p class="text-sm max-w-sm leading-6   p-10 sm:p-6">
       Mari Bergabung untuk belajar bersama serta berikan kontribusi anda disini
     </p>
     <a
